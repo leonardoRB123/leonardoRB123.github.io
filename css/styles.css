@@ -1,0 +1,104 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 250px; /* Ancho de la barra lateral */
+    height: 100vh; /* Altura completa de la ventana */
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    position: fixed; /* Fija la barra lateral */
+}
+.mi-foto {
+    width: 70%; /* Ajusta el cuadrado completo al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Margen inferior para separación */
+    padding: 20px; /* Espacio interno alrededor de la imagen */
+    box-sizing: border-box; /* Incluye padding en el tamaño total */
+    padding-top: 0px;
+}
+
+.sidebar h2 {
+    margin: 0 0 20px 0; /* Margen del título */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding */
+}
+
+.sidebar ul li {
+    margin: 10px 0; /* Espacio entre los elementos de la lista */
+}
+
+.sidebar ul li a {
+    color: white; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    display: block; /* Hace que el enlace ocupe todo el ancho */
+    padding: 10px; /* Espaciado interno del enlace */
+    transition: background 0.3s; /* Transición suave para el hover */
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757; /* Color de fondo al pasar el mouse */
+}
+
+.content {
+    margin-left:290px; /* Espacio para la barra lateral */
+    padding: 2px; /* Espaciado interno */
+    background-color: aqua;
+    
+}
+.content h1{
+    margin-left:50px; /* Espacio para la barra lateral */
+    
+   
+}
+.content p{
+    margin-left:50px; /* Espacio para la barra lateral */
+    
+   
+}
+.cuerpo
+{
+   
+    
+        width: 1%; /* Reduce el ancho al 5% del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+        margin-bottom: 10%; /* Margen inferior para separación */
+        padding: 18%; /* Espacio interno alrededor de la imagen */
+        box-sizing: border-box; /* Incluye padding en el tamaño total */
+        padding-top: 0%; /* Espacio superior eliminado */
+    
+    
+}
+
+.foto{
+
+     /* Reduce el ancho al 5% del contenedor */
+    height: 100%; /* Mantiene la proporción de la imagen */
+  padding-left: 100%;
+    padding: 100%; /* Espacio interno alrededor de la imagen */
+   
+    padding-top: 20%; /* Espacio superior eliminado */
+   
+}
+
+.articulosescritos
+{
+   
+    
+      
+        font-size: 17px;
+        padding-left: 350px;
+        padding-right: 100px;
+       
+        
+      
+        
+    
+    
+}
