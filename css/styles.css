@@ -81,7 +81,7 @@ body {
      /* Reduce el ancho al 5% del contenedor */
     height: 100%; /* Mantiene la proporción de la imagen */
   padding-left: 50%;
-    padding: 100%; /* Espacio interno alrededor de la imagen */
+    padding: 50%; /* Espacio interno alrededor de la imagen */
    
     padding-top: 20%; /* Espacio superior eliminado */
    
