@@ -66,24 +66,27 @@ body {
 {
    
     
-        width: 1%; /* Reduce el ancho al 5% del contenedor */
-        height: auto; /* Mantiene la proporción de la imagen */
+       
+        width: 20%; /* Reduce el ancho al 5% del contenedor */
+        height: 9000px; /* Mantiene la proporción de la imagen */
         margin-bottom: 10%; /* Margen inferior para separación */
-        padding: 18%; /* Espacio interno alrededor de la imagen */
-        box-sizing: border-box; /* Incluye padding en el tamaño total */
+        padding: 5%; /* Espacio interno alrededor de la imagen */
+        box-sizing: border-box; /* Incluye padding en el tamaño total */     
         padding-top: 0%; /* Espacio superior eliminado */
+        padding-left: 25%;
+    
     
     
 }
 
 .foto{
 
-     /* Reduce el ancho al 5% del contenedor */
-    height: 100%; /* Mantiene la proporción de la imagen */
-  padding-left: 50%;
-    padding: 50%; /* Espacio interno alrededor de la imagen */
-   
-    padding-top: 20%; /* Espacio superior eliminado */
+          /* Reduce el ancho al 5% del contenedor */
+        height: 20%; /* Mantiene la proporción de la imagen */
+    padding-left: 50%;
+        padding: 10%; /* Espacio interno alrededor de la imagen */
+    
+        padding-top: 10%; /* Espacio superior eliminado */
    
 }
 
